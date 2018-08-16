@@ -27,7 +27,7 @@ class Song
       song.name = name
       song
     end
-    
+
     def self.new_from_filename(filename)
         result_array = filename.scan(/(.*) - (.*).mp3/)
         if result_array
